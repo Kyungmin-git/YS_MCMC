@@ -1,0 +1,14 @@
+
+cff-version: 1.2.0
+type: software
+
+title: "YS_MCMC: Bayesian Inversion of Yellowstone Lake Tremor"
+
+authors:
+  - family-names: "Kim"
+    given-names: "Kyungmin"
+
+version: 1.0.0
+date-released: 2026-10-08
+
+repository-code: "https://github.com/Kyungmin-git/YS_MCMC"

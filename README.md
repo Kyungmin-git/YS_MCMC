@@ -20,13 +20,13 @@ This dataset can be used as input for testing and reproducing the inversion work
 
 ## Code Description
 
-| yellowstone_inversion.m | Main script for running the MCMC inversion. |
-| YL_Y1701_ELZ_201804_selected_spectra.mat` | Example tremor spectrum recorded at Yellowstone Lake in April 2018. |
-| forwardmodelgaspocket.m | Computes the theoretical response of the gas-pocket forward model. |
-| compute_G_hankel.m | Computes the radial integration using the Hankel-transform formulation. |
-| generate_excitation.m | Generates MCMC proposals for the excitation parameters. |
-| generatelpparameter.m | Generates MCMC proposals for the physical model parameters. |
-| sigma_propose.m | Generates MCMC proposals for the logarithm of the noise standard deviation. |
+yellowstone_inversion.m: Main script for running the MCMC inversion. 
+YL_Y1701_ELZ_201804_selected_spectra.mat: Example tremor spectrum recorded at Yellowstone Lake in April 2018.
+forwardmodelgaspocket.m: Computes the theoretical response of the gas-pocket forward model.
+compute_G_hankel.m: Computes the radial integration using the Hankel-transform formulation.
+generate_excitation.m: Generates MCMC proposals for the excitation parameters.
+generatelpparameter.m: Generates MCMC proposals for the physical model parameters. |
+sigma_propose.m: Generates MCMC proposals for the logarithm of the noise standard deviation.
 
 ## Inversion Workflow
 
